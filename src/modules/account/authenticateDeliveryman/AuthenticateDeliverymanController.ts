@@ -12,8 +12,6 @@ export class AuthenticateDeliverymanController {
       password,
     });
 
-    console.log(result);
-
     return response.json(result);
   }
 }
